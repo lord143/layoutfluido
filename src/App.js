@@ -4,37 +4,19 @@ import Global from "./styles/global";
 
 import Home from "./pages/Home/Home";
 
-const lorem =
+const message =
   "A beleza está em todos os lugares.";
 
 const dev = 
-  "DEV em progresso, codando em seu tempo"
+  "DEV em progresso, codando em seu tempo!!"
 
 const data = [
   {
     id: Math.random(),
     title: dev,
-    text: lorem,
+    text: message,
     bgColor: "#D5CAFA"
-  },
-  {
-    id: Math.random(),
-    title: dev,
-    text: lorem,
-    bgColor: "#EDA9A9"
-  },
-  {
-    id: Math.random(),
-    title: dev,
-    text: lorem,
-    bgColor: "#F2EE8D"
-  },
-  {
-    id: Math.random(),
-    title: dev,
-    text: lorem,
-    bgColor: "#9FEACD"
-  }
+  },  
 ];
 
 function App() {
